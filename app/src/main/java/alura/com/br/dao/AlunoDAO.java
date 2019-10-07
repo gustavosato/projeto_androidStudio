@@ -29,6 +29,7 @@ public class AlunoDAO {
 
     }
 
+    @SuppressWarnings("unused")
     private Aluno buscaAlunoPeloId(Aluno aluno) {
         Aluno alunoEncontrado = null;
         for (Aluno a :
